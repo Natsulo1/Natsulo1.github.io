@@ -1,0 +1,92 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+<body>
+    <header>
+        <h1>Recursos Multimídia</h1>
+        <p>Exemplos de incorporação de mídias utilizando HTML5.</p>
+    </header>
+    <main>
+
+        <figure>
+            <video
+                controls
+                width="800"
+                height="450"
+                poster="poster-aula.jpg"
+                preload="metadata">
+                <source src="videos/aula-html.mp4" type="video/mp4">
+                <source src="videos/aula-html.webm" type="video/webm">
+                <track
+                    src="legendas/aula-html.vtt"
+                    kind="subtitles"
+                    srclang="pt"
+                    label="Português"
+                    default>
+                <p>
+                    Seu navegador não suporta vídeos HTML5.
+                    <a href="videos/aula-html.mp4">Baixar o vídeo</a>.
+                </p>
+            </video>
+            <figcaption>
+                Aula introdutória sobre recursos multimídia em HTML5.
+                Fonte: material didático do curso.
+            </figcaption>
+        </figure>
+        <figure>
+            <audio controls preload="metadata">
+                <source src="audios/episodio-html5.mp3" type="audio/mpeg">
+                <source src="audios/episodio-html5.ogg" type="audio/ogg">
+                <p>
+                    Seu navegador não suporta áudio HTML5.
+                    <a href="audios/episodio-html5.mp3">Baixar o áudio</a>.
+                </p>
+            </audio>
+            <figcaption>
+                Episódio: Introdução ao HTML5 —
+                <a href="transcricao.html">Ler transcrição</a>.
+            </figcaption>
+        </figure>
+        <figure>
+                <iframe
+                    width="800"
+                    height="450"
+                    src="https://www.youtube.com/embed/epDCjksKMok"
+                    title="Curso HTML5"
+                    allowfullscreen>
+                </iframe>
+            <figcaption>
+                Vídeo educacional sobre HTML5, canal Curso em Vídeo,
+                plataforma YouTube.
+            </figcaption>
+        </figure>
+            <figure>
+                <picture>
+                    <source
+                        media="(min-width: 768px)"
+                        srcset="recursos.png">
+                    <img
+                        src="recursos.png"
+                        alt="Banner ilustrando recursos multimídia utilizados em ambientes virtuais de aprendizagem"
+                        width="800"
+                        height="400">
+                </picture>
+                <figcaption>
+                    Banner institucional do ambiente virtual de aprendizagem,
+                    adaptado para diferentes tamanhos de tela.
+                </figcaption>
+            </figure>
+    </main>
+    <footer>
+        <p>
+            Nome: Seu Nome<br>
+            Matrícula: 202500000<br>
+            Data: 14/06/2026
+        </p>
+    </footer>
+
+</body>
+</html>
