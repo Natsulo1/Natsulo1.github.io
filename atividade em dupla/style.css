@@ -1,0 +1,88 @@
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.destaque {
+    box-shadow: 0 2px 8px gray;
+}
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px lightgray;
+}
+
+.formulario {
+    opacity: 1;
+}
+
+.secao {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.campo-texto {
+    background-color: #fafafa;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao-principal {
+    background-color: #1e88e5;
+    color: white;
+}
+
+.botao-principal:hover {
+    background-color: #1565c0;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape {
+    margin-top: 20px;
+}
