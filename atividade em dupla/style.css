@@ -1,6 +1,25 @@
-header.destaque{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--neon);border-radius:12px;box-shadow:0 0 22px rgba(57,255,136,.2);padding:1rem}
-.secao{margin-bottom:15px}
-label{display:block;margin-bottom:5px;font-weight:bold}
-textarea{height:100px}
-.botao-principal{padding:12px 20px;font-size:16px}
-.rodape{margin-top:20px}
+header.destaque {
+    background:linear-gradient(135deg,var(--panel2),var(--panel));
+    border:1px solid var(--neon);
+    border-radius:12px;
+    box-shadow:0 0 22px rgba(57,255,136,.2);
+    padding:1rem
+}
+.secao {
+    margin-bottom:15px
+}
+label {
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold
+}
+textarea {
+    height:100px
+}
+.botao-principal {
+    padding:12px 20px;
+    font-size:16px
+}
+.rodape {
+    margin-top:20px
+}
