@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" fill="#050a1f"/>
+  <rect x="35" y="35" width="1130" height="290" rx="12" fill="#0b1437" stroke="#39ff88" stroke-width="3"/>
+  <g transform="translate(850 55)">
+    <rect x="0" y="0" width="190" height="190" rx="16" fill="#c9d1e0"/>
+    <rect x="28" y="28" width="134" height="134" rx="8" fill="#0a1230"/>
+    <path d="M95 28v134M28 95h134" stroke="#39ff88" stroke-width="7"/>
+    <circle cx="62" cy="62" r="10" fill="#ff3b4e"/>
+    <circle cx="128" cy="62" r="10" fill="#ff3b4e"/>
+    <circle cx="62" cy="128" r="10" fill="#ff3b4e"/>
+    <circle cx="128" cy="128" r="10" fill="#ff3b4e"/>
+  </g>
+  <text x="85" y="112" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#39ff88">GIRO PERFEITO</text>
+  <text x="85" y="170" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">KIT DO CUBISTA</text>
+  <text x="85" y="215" font-family="Arial, sans-serif" font-size="22" fill="#c9d1e0">Molas, ímãs e acessórios para ajustes finos</text>
+  <rect x="85" y="250" width="170" height="38" rx="5" fill="#39ff88"/>
+  <text x="170" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#050a1f">VER OFERTA</text>
+</svg>
