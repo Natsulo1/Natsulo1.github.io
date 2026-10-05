@@ -1,25 +1,140 @@
-.shipping-bar{background:linear-gradient(90deg,var(--red),#b3122a);color:#fff;text-align:center;font-size:12px;padding:4px;font-weight:600;letter-spacing:.04em}
-header{background:rgba(5,10,31,.92);border-bottom:1px solid var(--line)!important;position:sticky;top:0;z-index:50;backdrop-filter:blur(8px)}
-.navbar{background:transparent}
-.logo{font-weight:800;letter-spacing:.25em;color:var(--neon)!important;text-shadow:0 0 12px rgba(57,255,136,.6);font-size:22px}
-.nav-link{color:var(--silver)!important;font-size:13px}
-.nav-link:hover{color:var(--neon)!important}
-.dropdown-menu{background:var(--panel);border:1px solid var(--line)}
-.dropdown-item{color:var(--silver)}
-.dropdown-item:hover{background:var(--panel2);color:var(--neon)}
-.search-form{display:flex;max-width:480px;margin-left:auto}
-.search-form input{border-radius:6px 0 0 6px;flex:1}
-.search-form button{border-radius:0 6px 6px 0}
-.cart-btn{border:1px solid var(--line);background:var(--panel);color:var(--silver);border-radius:8px;padding:4px 10px;margin-left:12px;position:relative;font-size:18px}
-.cart-badge{position:absolute;right:-6px;top:-6px;background:var(--red);color:#fff;min-width:17px;height:17px;border-radius:9px;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center}
-.hero{height:260px;margin-top:20px;position:relative;border:1px solid var(--neon);border-radius:14px;overflow:hidden;box-shadow:0 0 24px rgba(57,255,136,.25)}
-.banner-slide{position:absolute;inset:0;opacity:0;transition:opacity .4s}
-.banner-slide.active{opacity:1}
-.banner-slide img{width:100%;height:100%;object-fit:cover;border:0;border-radius:0;display:block}
-.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:10;width:36px;height:36px;border:1px solid var(--silver);border-radius:50%;background:rgba(5,10,31,.7);color:var(--silver);font-size:22px;cursor:pointer;line-height:1}
-.carousel-arrow:hover{color:var(--neon);border-color:var(--neon)}
-.prev{left:10px}.next{right:10px}
-.carousel-dots{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:6px;z-index:10}
+.shipping-bar {
+    background:linear-gradient(90deg,var(--red),#b3122a);
+    color:#fff;text-align:center;
+    font-size:12px;padding:4px;
+    font-weight:600;
+    letter-spacing:.04em
+}
+header {
+    background:rgba(5,10,31,.92);
+    border-bottom:1px solid var(--line)!important;
+    position:sticky;
+    top:0;z-index:50;
+    backdrop-filter:blur(8px)
+}
+.navbar {
+    background:transparent
+}
+.logo {
+    font-weight:800;
+    letter-spacing:.25em;
+    color:var(--neon)!important;
+    text-shadow:0 0 12px rgba(57,255,136,.6);
+    font-size:22px
+}
+.nav-link {
+    color:var(--silver)!important;
+    font-size:13px
+}
+.nav-link:hover {
+    color:var(--neon)!important
+}
+.dropdown-menu {
+    background:var(--panel);
+    border:1px solid var(--line)
+}
+.dropdown-item {
+    color:var(--silver)
+}
+.dropdown-item:hover {
+    background:var(--panel2);
+    color:var(--neon)
+}
+.search-form {
+    display:flex;
+    max-width:480px;
+    margin-left:auto
+}
+.search-form input {
+    border-radius:6px 0 0 6px;
+    flex:1
+}
+.search-form button {
+    border-radius:0 6px 6px 0
+}
+.cart-btn {
+    border:1px solid var(--line);
+    background:var(--panel);
+    color:var(--silver);
+    border-radius:8px;
+    padding:4px 10px;
+    margin-left:12px;
+    position:relative;
+    font-size:18px
+}
+.cart-badge {
+    position:absolute;
+    right:-6px;
+    top:-6px;
+    background:var(--red);
+    color:#fff;
+    min-width:17px;
+    height:17px;
+    border-radius:9px;
+    font-size:10px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.hero {
+    height:260px;
+    margin-top:20px;
+    position:relative;
+    border:1px solid var(--neon);
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 0 24px rgba(57,255,136,.25)
+}
+.banner-slide {
+    position:absolute;
+    inset:0;
+    opacity:0;
+    transition:opacity .4s
+}
+.banner-slide.active {
+    opacity:1
+}
+.banner-slide img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border:0;
+    border-radius:0;
+    display:block
+}
+.carousel-arrow {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);z-index:10;
+    width:36px;
+    height:36px;
+    border:1px solid var(--silver);
+    border-radius:50%;
+    background:rgba(5,10,31,.7);
+    color:var(--silver);
+    font-size:22px;
+    cursor:pointer;
+    line-height:1
+}
+.carousel-arrow:hover {
+    color:var(--neon);
+    border-color:var(--neon)
+}
+.prev {
+    left:10px
+}.next {
+    right:10px
+}
+.carousel-dots {
+    position:absolute;
+    bottom:10px;
+    left:0;right:0;
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    z-index:10
+}
 .carousel-dots button{width:9px;height:9px;padding:0;border:1px solid var(--silver);border-radius:50%;background:transparent;cursor:pointer}
 .carousel-dots button.active{background:var(--neon);border-color:var(--neon)}
 .section-block{margin-top:34px}
