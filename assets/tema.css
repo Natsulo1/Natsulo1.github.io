@@ -10,7 +10,13 @@
     --text:#e8ecf8
 }
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(1100px 500px at 85% -10%,#0d1b5a 0,transparent 60%),var(--bg);color:var(--text);font-family:"Segoe UI",Arial,Helvetica,sans-serif;line-height:1.6}
+body {
+    margin:0;
+    background:radial-gradient(1100px 500px at 85% -10%,#0d1b5a 0,transparent 60%),var(--bg);
+    color:var(--text);
+    font-family:"Segoe UI",Arial,Helvetica,sans-serif;
+    line-height:1.6
+}
 h1,h2,h3 {
     color:#fff;
     line-height:1.25
